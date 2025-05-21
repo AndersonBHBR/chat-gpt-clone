@@ -1,7 +1,3 @@
-📄 README.md
-markdown
-Copiar
-Editar
 # ChatGPT Clone 🤖💬
 
 Este projeto é um clone simplificado do ChatGPT, com frontend em React e backend em Node.js utilizando a API da OpenAI.
@@ -30,10 +26,6 @@ chat-gpt-clone/
 │ └── package.json
 └── README.md
 
-yaml
-Copiar
-Editar
-
 ---
 
 ## ⚙️ Requisitos
@@ -50,7 +42,6 @@ Editar
 
 1. Vá até a pasta `server`:
 
-```bash
 cd server
 Instale as dependências:
 
@@ -67,40 +58,26 @@ OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 PORT=5555
 Inicie o servidor:
 
-bash
-Copiar
-Editar
 node src/server.js
 O backend será iniciado em http://localhost:5555
 
 💻 Frontend (React)
 Em outro terminal, vá até a pasta web:
 
-bash
-Copiar
-Editar
 cd web
 Instale as dependências:
 
-bash
-Copiar
-Editar
 npm install
 Inicie a aplicação React:
 
-bash
-Copiar
-Editar
 npm start
 O frontend será iniciado em http://localhost:3000
 
 📡 Comunicação
 O frontend faz requisições via Axios para:
 
-http
-Copiar
-Editar
 POST http://localhost:5555/api/prompt
+
 🛠 Tecnologias Utilizadas
 React (Frontend)
 
@@ -124,10 +101,6 @@ Interface responsiva e melhorias de UX
 📝 Licença
 Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
-yaml
-Copiar
-Editar
-
 ---
 
 ## ✅ Próximo passo
@@ -135,7 +108,6 @@ Editar
 1. Salve esse conteúdo em um arquivo `README.md` na raiz do projeto.
 2. Adicione e envie para o GitHub:
 
-```bash
 git add README.md
 git commit -m "Adiciona README com instruções do projeto"
 git push
